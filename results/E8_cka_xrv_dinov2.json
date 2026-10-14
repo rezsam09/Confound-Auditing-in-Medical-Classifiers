@@ -1,0 +1,23 @@
+{
+  "source_probe_AUC": {
+    "A": 0.9995591135574443,
+    "B": 0.999986338729949,
+    "A_erased": 0.48149146294815176,
+    "B_erased": 0.4932277358556178
+  },
+  "CKA": {
+    "A_vs_B": 0.20198340713977814,
+    "A_vs_A_erased": 0.9776376485824585,
+    "B_vs_B_erased": 0.9301667213439941,
+    "A_erased_vs_B_erased": 0.15675796568393707
+  },
+  "variance_share_removed": {
+    "A": 0.03222900629043579,
+    "B": 0.043262779712677
+  },
+  "random_rank1_reference": {
+    "CKA_A_vs_A_erased_mean": 0.9999949746194362,
+    "delta_CKA_AB_mean": 0.00017224728701514675
+  },
+  "delta_CKA_A_vs_B_after_erasing_source": 0.045225441455841064
+}

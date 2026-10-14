@@ -1,0 +1,9 @@
+# Copy to paths.sh and edit. Sourced by reproduce_all.sh.
+export HF_HOME=$HOME/hf_cache                     # DINOv2 cache (public weights, no token needed)
+export BELARUS=/data/tb_belarus/images_png        # Belarus TB Portals cases (PNG-converted)
+export RSNA=/data/tb_normals_rsna/images          # RSNA pneumonia-challenge normals
+export SHENZHEN=/data/shenzhen/CXR_png            # CHNCXR_*_{0,1}.png
+export MONTGOMERY=/data/montgomery/CXR_png        # MCUCXR_*_{0,1}.png
+export EXTENT_CSV=/data/tb_belarus/belarus_extent.csv   # columns: basename,extent (A|B)
+export MALARIA=/data/malaria_nih/cell_images      # contains Parasitized/ and Uninfected/
+export GLIOMA_CSV=/data/glioma_tcga/cohort.csv    # edit COLS in scripts/glioma_data.py

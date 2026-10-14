@@ -1,0 +1,48 @@
+{
+  "map_R2_A_to_B_heldout": 0.1395279714873644,
+  "map_R2_B_to_A_heldout": 0.273327657345806,
+  "source_probe_AUC_in_B": {
+    "B_none": {
+      "linear": 0.9999040748983195,
+      "mlp": 0.9993309224157777
+    },
+    "B_own_LEACE": {
+      "linear": 0.5112292322154861,
+      "mlp": 0.9906772791804159
+    },
+    "B_transported_A_LEACE": {
+      "linear": 0.9909866376333359,
+      "mlp": 0.9930598188934079
+    },
+    "B_transported_random_rank1": {
+      "linear": 0.9998992786432354,
+      "mlp": 0.9992973486301896
+    },
+    "A_own_LEACE_reference": {
+      "linear": 0.5243985496124626
+    }
+  },
+  "head_inheritance_on_matched": {
+    "stitched_headA_via_g_on_B": {
+      "auc": 0.5406966567477682,
+      "lo": 0.5032451459451701,
+      "hi": 0.5816188548824451
+    },
+    "native_headB": {
+      "auc": 0.471181015728539,
+      "lo": 0.4328297950413113,
+      "hi": 0.5138338831560274
+    },
+    "native_headA_on_A": {
+      "auc": 0.5703783351254033,
+      "lo": 0.5309375024991553,
+      "hi": 0.6112976306770254
+    },
+    "matched_trained_oracle_A_trainfit": 1.0,
+    "matched_trained_oracle_B_trainfit": 0.9992935910579881,
+    "corr_stitched_vs_nativeB_scores": 0.844885429930829,
+    "matched_TB_detection_cv_AUC_B_none": 0.8391388062314021,
+    "matched_TB_detection_cv_AUC_B_own_LEACE": 0.8427771248530918,
+    "matched_TB_detection_cv_AUC_B_transported_A_LEACE": 0.8465154659798455
+  }
+}

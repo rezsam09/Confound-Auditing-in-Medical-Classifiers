@@ -1,0 +1,86 @@
+{
+  "n_patients": 201,
+  "patients_with_any_infected_cell": 151,
+  "uninfected_cells_from_infected_patients": 10364,
+  "uninfected_cells_from_patients_with_no_infected_cell": 3415,
+  "views": {
+    "full": {
+      "infected_score_AUC_bystander_vs_healthyPatient_uninfected": 0.6444927338862477,
+      "mean_score_bystander": -6.96640836040047,
+      "mean_score_healthy": -9.221150709278772,
+      "false_positive_rate_bystander": 0.06812041682747974,
+      "false_positive_rate_healthy": 0.03953147877013177,
+      "cell_level_patient_status_AUC_from_uninfected_cells_only": 0.8852367950100952,
+      "patient_level_status_AUC_from_uninfected_cells_only": {
+        "auc": 0.953907284768212,
+        "lo": 0.9088129447181171,
+        "hi": 0.9867955749357367
+      }
+    },
+    "parasite": {
+      "infected_score_AUC_bystander_vs_healthyPatient_uninfected": 0.5046148171421176,
+      "mean_score_bystander": -1.9039517893437998,
+      "mean_score_healthy": -1.997639029148652,
+      "false_positive_rate_bystander": 0.0750675414897723,
+      "false_positive_rate_healthy": 0.07349926793557833,
+      "cell_level_patient_status_AUC_from_uninfected_cells_only": 0.5371872197543812,
+      "patient_level_status_AUC_from_uninfected_cells_only": {
+        "auc": 0.7964238410596027,
+        "lo": 0.7208074406100723,
+        "hi": 0.8568815748521631
+      }
+    },
+    "rbc": {
+      "infected_score_AUC_bystander_vs_healthyPatient_uninfected": 0.6691366612550597,
+      "mean_score_bystander": -4.197577606128102,
+      "mean_score_healthy": -6.202044248437462,
+      "false_positive_rate_bystander": 0.1075839444230027,
+      "false_positive_rate_healthy": 0.05241581259150805,
+      "cell_level_patient_status_AUC_from_uninfected_cells_only": 0.8861756796388898,
+      "patient_level_status_AUC_from_uninfected_cells_only": {
+        "auc": 0.9532450331125828,
+        "lo": 0.9101992618886635,
+        "hi": 0.9880002386671594
+      }
+    },
+    "randcrop": {
+      "infected_score_AUC_bystander_vs_healthyPatient_uninfected": 0.6650210804038985,
+      "mean_score_bystander": -1.118124962212385,
+      "mean_score_healthy": -2.079816406603569,
+      "false_positive_rate_bystander": 0.24565804708606714,
+      "false_positive_rate_healthy": 0.11098096632503661,
+      "cell_level_patient_status_AUC_from_uninfected_cells_only": 0.8372329773125013,
+      "patient_level_status_AUC_from_uninfected_cells_only": {
+        "auc": 0.9109933774834437,
+        "lo": 0.8605239712458256,
+        "hi": 0.9544912446862598
+      }
+    },
+    "gray": {
+      "infected_score_AUC_bystander_vs_healthyPatient_uninfected": 0.5682606985663291,
+      "mean_score_bystander": -6.448224907537052,
+      "mean_score_healthy": -7.404409944359347,
+      "false_positive_rate_bystander": 0.07854110382091857,
+      "false_positive_rate_healthy": 0.048316251830161056,
+      "cell_level_patient_status_AUC_from_uninfected_cells_only": 0.8334188114845114,
+      "patient_level_status_AUC_from_uninfected_cells_only": {
+        "auc": 0.9340397350993378,
+        "lo": 0.8825427724941494,
+        "hi": 0.9672706726060546
+      }
+    },
+    "silhouette": {
+      "infected_score_AUC_bystander_vs_healthyPatient_uninfected": 0.6448677791634857,
+      "mean_score_bystander": -0.3916203004703969,
+      "mean_score_healthy": -1.0699182668504328,
+      "false_positive_rate_bystander": 0.36433809340023154,
+      "false_positive_rate_healthy": 0.18653001464128843,
+      "cell_level_patient_status_AUC_from_uninfected_cells_only": 0.7144188719483424,
+      "patient_level_status_AUC_from_uninfected_cells_only": {
+        "auc": 0.886092715231788,
+        "lo": 0.8299922618554694,
+        "hi": 0.9350878021774013
+      }
+    }
+  }
+}

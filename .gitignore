@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+feats/
+paths.sh
+*.log
+.DS_Store

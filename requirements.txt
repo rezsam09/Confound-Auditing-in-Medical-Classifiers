@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn>=1.2
+pillow
+tqdm
+# extraction only (GPU box):
+torch
+torchvision
+torchxrayvision
+pydicom
+transformers   # DINOv2 backbone
+scikit-image
